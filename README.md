@@ -18,8 +18,8 @@ If wanting to use this without that, the typical eslint setup process applies.
 💼 Configurations enabled in.\
 🌐 Set in the `all` configuration.
 
-| Name                                                                                             | Description                                                                       | 💼  |
-| :----------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------- | :-- |
-| [require-typed-object-values-and-entries](docs/rules/require-typed-object-values-and-entries.md) | Require Object.values() and Object.entries() calls to have generic type specified | 🌐  |
+| Name                                                                                             | Description                                                                       | 💼 |
+| :----------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------- | :- |
+| [require-typed-object-values-and-entries](docs/rules/require-typed-object-values-and-entries.md) | Require Object.values() and Object.entries() calls to have generic type specified | 🌐 |
 
 <!-- end auto-generated rules list -->

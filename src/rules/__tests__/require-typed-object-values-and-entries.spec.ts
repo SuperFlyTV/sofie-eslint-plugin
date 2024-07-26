@@ -1,7 +1,8 @@
-import { ESLintUtils } from '@typescript-eslint/utils'
+// eslint-disable-next-line node/no-missing-import
+import { RuleTester } from '@typescript-eslint/rule-tester'
 import rule from '../require-typed-object-values-and-entries'
 
-const ruleTester = new ESLintUtils.RuleTester({
+const ruleTester = new RuleTester({
 	parser: '@typescript-eslint/parser',
 	parserOptions: {
 		project: '../../../tsconfig.json',

@@ -5,7 +5,7 @@ export default ESLintUtils.RuleCreator.withoutDocs({
 		type: 'suggestion',
 		docs: {
 			description: 'Require Object.values() and Object.entries() calls to have generic type specified',
-			recommended: 'error',
+			recommended: 'recommended',
 			extendsBaseRule: true,
 		},
 		messages: {

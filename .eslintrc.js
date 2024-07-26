@@ -7,6 +7,7 @@ module.exports = {
 			files: ['*'],
 			rules: {
 				'eslint-plugin/require-meta-docs-description': 'error',
+				'node/no-missing-import': 'off',
 			},
 		},
 	],

@@ -11,6 +11,8 @@
 		},
 		"types": ["node"],
 		"declarationMap": false,
-		"sourceMap": false
+		"moduleResolution": "Node16",
+		"sourceMap": false,
+		"skipLibCheck": true
 	}
 }
