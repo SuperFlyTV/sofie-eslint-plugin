@@ -943,7 +943,7 @@ __metadata:
     ts-node: "npm:^10.9.2"
     typescript: "npm:~5.1"
   peerDependencies:
-    eslint: ">=8"
+    eslint: ^9
   languageName: unknown
   linkType: soft
 
