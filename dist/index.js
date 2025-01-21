@@ -7,7 +7,6 @@ module.exports = {
     },
     configs: {
         all: {
-            plugins: ['@sofie-automation'],
             rules: {
                 '@sofie-automation/require-typed-object-values-and-entries': 'error',
             },
