@@ -7,7 +7,9 @@ export = {
 	},
 	configs: {
 		all: {
-			'@sofie-automation/require-typed-object-values-and-entries': 'error',
+			rules: {
+				'@sofie-automation/require-typed-object-values-and-entries': 'error',
+			},
 		},
-	} satisfies Record<string, FlatConfig.Rules>,
+	} satisfies Record<string, FlatConfig.Config>,
 }
