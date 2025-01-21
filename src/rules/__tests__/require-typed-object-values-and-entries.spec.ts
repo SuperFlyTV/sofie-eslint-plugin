@@ -4,6 +4,7 @@ import * as parser from '@typescript-eslint/parser'
 import rule from '../require-typed-object-values-and-entries'
 
 const ruleTester = new RuleTester({
+	// @ts-ignore Typescript in vscode insists this is valid, but ts-jest insists it is invalid
 	languageOptions: {
 		parser: parser,
 		parserOptions: {
